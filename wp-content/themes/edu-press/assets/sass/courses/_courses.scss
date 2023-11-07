@@ -1,0 +1,334 @@
+.lp-archive-courses {
+	.lp-content-area {
+		padding: 0 15px 50px 15px;
+		gap: 30px !important;
+
+		@media (max-width: 768px) {
+			padding-bottom: 30px;
+		}
+
+		.learn-press-courses .course-info .course-footer {
+			.course-price {
+				.price {
+					color: $thim_course_price_color;
+				}
+
+				.free {
+					color: #00d637;
+					font-size: 16px;
+					font-weight: 500;
+				}
+			}
+		}
+
+		.lp-courses-bar {
+			.search-courses {
+				input[type=text] {
+					height: 42px;
+					line-height: 40px;
+					padding: 0 30px 0 0;
+				}
+
+				button {
+					background-image: url("data:image/svg+xml,%3Csvg width='17' height='16' viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.6365 13.7613C6.27564 13.7613 4.94534 13.3577 3.81382 12.6017C2.68231 11.8456 1.8004 10.771 1.27962 9.51374C0.758841 8.25647 0.622581 6.87301 0.888072 5.53829C1.15356 4.20358 1.80888 2.97757 2.77115 2.01529C3.73343 1.05302 4.95944 0.397703 6.29415 0.132213C7.62886 -0.133278 9.01233 0.00298122 10.2696 0.52376C11.5269 1.04454 12.6015 1.92645 13.3575 3.05796C14.1136 4.18948 14.5171 5.51978 14.5171 6.88064C14.5171 7.78422 14.3392 8.67895 13.9934 9.51374C13.6476 10.3485 13.1408 11.1071 12.5018 11.746C11.8629 12.3849 11.1044 12.8917 10.2696 13.2375C9.43481 13.5833 8.54008 13.7613 7.6365 13.7613ZM7.6365 1.37979C6.55215 1.37979 5.49215 1.70133 4.59054 2.30377C3.68894 2.9062 2.98622 3.76246 2.57126 4.76427C2.15629 5.76608 2.04772 6.86844 2.25927 7.93196C2.47081 8.99548 2.99298 9.97238 3.75973 10.7391C4.52648 11.5059 5.50338 12.028 6.5669 12.2396C7.63042 12.4511 8.73278 12.3426 9.73459 11.9276C10.7364 11.5126 11.5927 10.8099 12.1951 9.90832C12.7975 9.00671 13.1191 7.94671 13.1191 6.86236C13.1191 5.40829 12.5414 4.01378 11.5133 2.9856C10.4851 1.95741 9.09057 1.37979 7.6365 1.37979Z' fill='black'/%3E%3Cpath d='M16.071 15.9999C15.9809 16.0004 15.8917 15.9828 15.8085 15.9483C15.7254 15.9138 15.65 15.863 15.5867 15.7989L11.8128 12.0251C11.6918 11.8952 11.6259 11.7233 11.629 11.5458C11.6321 11.3682 11.7041 11.1988 11.8296 11.0733C11.9552 10.9477 12.1246 10.8758 12.3021 10.8727C12.4797 10.8695 12.6515 10.9354 12.7814 11.0565L16.5553 14.8303C16.6836 14.9588 16.7557 15.133 16.7557 15.3146C16.7557 15.4962 16.6836 15.6704 16.5553 15.7989C16.492 15.863 16.4166 15.9138 16.3334 15.9483C16.2502 15.9828 16.161 16.0004 16.071 15.9999Z' fill='black'/%3E%3C/svg%3E") !important;
+					background-repeat: no-repeat !important;
+					background-position: center !important;
+
+					i {
+						display: none;
+					}
+				}
+			}
+
+			.switch-layout {
+				.switch-btn {
+					&.grid {
+						background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2222%22%20height%3D%2222%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M5.33333%200H1.33333C0.979711%200%200.640573%200.140476%200.390524%200.390524C0.140476%200.640573%200%200.979711%200%201.33333V5.33333C0%205.68696%200.140476%206.02609%200.390524%206.27614C0.640573%206.52619%200.979711%206.66667%201.33333%206.66667H5.33333C5.68696%206.66667%206.02609%206.52619%206.27614%206.27614C6.52619%206.02609%206.66667%205.68696%206.66667%205.33333V1.33333C6.66667%200.979711%206.52619%200.640573%206.27614%200.390524C6.02609%200.140476%205.68696%200%205.33333%200ZM5.33333%205.33333H1.33333V1.33333H5.33333V5.33333ZM14.6667%200H10.6667C10.313%200%209.97391%200.140476%209.72386%200.390524C9.47381%200.640573%209.33333%200.979711%209.33333%201.33333V5.33333C9.33333%205.68696%209.47381%206.02609%209.72386%206.27614C9.97391%206.52619%2010.313%206.66667%2010.6667%206.66667H14.6667C15.0203%206.66667%2015.3594%206.52619%2015.6095%206.27614C15.8595%206.02609%2016%205.68696%2016%205.33333V1.33333C16%200.979711%2015.8595%200.640573%2015.6095%200.390524C15.3594%200.140476%2015.0203%200%2014.6667%200ZM14.6667%205.33333H10.6667V1.33333H14.6667V5.33333ZM5.33333%209.33333H1.33333C0.979711%209.33333%200.640573%209.47381%200.390524%209.72386C0.140476%209.97391%200%2010.313%200%2010.6667V14.6667C0%2015.0203%200.140476%2015.3594%200.390524%2015.6095C0.640573%2015.8595%200.979711%2016%201.33333%2016H5.33333C5.68696%2016%206.02609%2015.8595%206.27614%2015.6095C6.52619%2015.3594%206.66667%2015.0203%206.66667%2014.6667V10.6667C6.66667%2010.313%206.52619%209.97391%206.27614%209.72386C6.02609%209.47381%205.68696%209.33333%205.33333%209.33333ZM5.33333%2014.6667H1.33333V10.6667H5.33333V14.6667ZM14.6667%209.33333H10.6667C10.313%209.33333%209.97391%209.47381%209.72386%209.72386C9.47381%209.97391%209.33333%2010.313%209.33333%2010.6667V14.6667C9.33333%2015.0203%209.47381%2015.3594%209.72386%2015.6095C9.97391%2015.8595%2010.313%2016%2010.6667%2016H14.6667C15.0203%2016%2015.3594%2015.8595%2015.6095%2015.6095C15.8595%2015.3594%2016%2015.0203%2016%2014.6667V10.6667C16%2010.313%2015.8595%209.97391%2015.6095%209.72386C15.3594%209.47381%2015.0203%209.33333%2014.6667%209.33333ZM14.6667%2014.6667H10.6667V10.6667H14.6667V14.6667Z%22%20fill%3D%22black%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+						background-repeat: no-repeat;
+						background-position: center;
+						opacity: 0.4;
+
+						&::before {
+							content: '';
+						}
+					}
+
+					&.list {
+						background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2222%22%20height%3D%2222%22%20viewBox%3D%220%200%2018%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M0.5%2016C0.366667%2016%200.25%2015.95%200.15%2015.85C0.0500001%2015.75%200%2015.6333%200%2015.5C0%2015.3667%200.0500001%2015.25%200.15%2015.15C0.25%2015.05%200.366667%2015%200.5%2015H2V14.5H1.5C1.36667%2014.5%201.25%2014.45%201.15%2014.35C1.05%2014.25%201%2014.1333%201%2014C1%2013.8667%201.05%2013.75%201.15%2013.65C1.25%2013.55%201.36667%2013.5%201.5%2013.5H2V13H0.5C0.366667%2013%200.25%2012.95%200.15%2012.85C0.0500001%2012.75%200%2012.6333%200%2012.5C0%2012.3667%200.0500001%2012.25%200.15%2012.15C0.25%2012.05%200.366667%2012%200.5%2012H2.5C2.63333%2012%202.75%2012.05%202.85%2012.15C2.95%2012.25%203%2012.3667%203%2012.5V15.5C3%2015.6333%202.95%2015.75%202.85%2015.85C2.75%2015.95%202.63333%2016%202.5%2016H0.5ZM1.5%204C1.36667%204%201.25%203.95%201.15%203.85C1.05%203.75%201%203.63333%201%203.5V1H0.5C0.366667%201%200.25%200.95%200.15%200.85C0.0500001%200.75%200%200.633333%200%200.5C0%200.366667%200.0500001%200.25%200.15%200.15C0.25%200.0500001%200.366667%200%200.5%200H1.5C1.63333%200%201.75%200.0500001%201.85%200.15C1.95%200.25%202%200.366667%202%200.5V3.5C2%203.63333%201.95%203.75%201.85%203.85C1.75%203.95%201.63333%204%201.5%204ZM0.5%2010C0.366667%2010%200.25%209.95%200.15%209.85C0.0500001%209.75%200%209.63333%200%209.5V9.275C0%209.20833%200.0416667%209.1%200.125%208.95L1.8%207H0.5C0.366667%207%200.25%206.95%200.15%206.85C0.0500001%206.75%200%206.63333%200%206.5C0%206.36667%200.0500001%206.25%200.15%206.15C0.25%206.05%200.366667%206%200.5%206H2.5C2.63333%206%202.75%206.05%202.85%206.15C2.95%206.25%203%206.36667%203%206.5V6.725C3%206.79167%202.95833%206.9%202.875%207.05L1.2%209H2.5C2.63333%209%202.75%209.05%202.85%209.15C2.95%209.25%203%209.36667%203%209.5C3%209.63333%202.95%209.75%202.85%209.85C2.75%209.95%202.63333%2010%202.5%2010H0.5ZM6%2015C5.71667%2015%205.47933%2014.904%205.288%2014.712C5.096%2014.5207%205%2014.2833%205%2014C5%2013.7167%205.096%2013.4793%205.288%2013.288C5.47933%2013.096%205.71667%2013%206%2013H17C17.2833%2013%2017.5207%2013.096%2017.712%2013.288C17.904%2013.4793%2018%2013.7167%2018%2014C18%2014.2833%2017.904%2014.5207%2017.712%2014.712C17.5207%2014.904%2017.2833%2015%2017%2015H6ZM6%209C5.71667%209%205.47933%208.904%205.288%208.712C5.096%208.52067%205%208.28333%205%208C5%207.71667%205.096%207.479%205.288%207.287C5.47933%207.09567%205.71667%207%206%207H17C17.2833%207%2017.5207%207.09567%2017.712%207.287C17.904%207.479%2018%207.71667%2018%208C18%208.28333%2017.904%208.52067%2017.712%208.712C17.5207%208.904%2017.2833%209%2017%209H6ZM6%203C5.71667%203%205.47933%202.90433%205.288%202.713C5.096%202.521%205%202.28333%205%202C5%201.71667%205.096%201.479%205.288%201.287C5.47933%201.09567%205.71667%201%206%201H17C17.2833%201%2017.5207%201.09567%2017.712%201.287C17.904%201.479%2018%201.71667%2018%202C18%202.28333%2017.904%202.521%2017.712%202.713C17.5207%202.90433%2017.2833%203%2017%203H6Z%22%20fill%3D%22black%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+						background-repeat: no-repeat;
+						background-position: center;
+						opacity: 0.4;
+
+						&::before {
+							content: '';
+						}
+					}
+				}
+
+				input[type=radio]:nth-child(1):checked~.switch-btn:nth-child(2) {
+					opacity: 1;
+				}
+
+				input[type=radio]:nth-child(3):checked~.switch-btn:nth-child(4) {
+					opacity: 1;
+				}
+			}
+		}
+
+		.course-sidebar-secondary .widget {
+
+			h2,
+			.widget-title {
+				text-transform: capitalize;
+				margin-bottom: 20px;
+				margin-top: 0;
+			}
+
+			ul li {
+				padding: 5px 10px 5px 0;
+			}
+
+			.tagcloud a {
+				font-size: $thim_font_body_font_size !important;
+				padding: 6px 15px;
+				border: 1px solid #E3E3E3;
+				display: inline-block;
+				margin-bottom: 5px;
+				margin-top: 10px;
+				margin-right: 10px;
+				color: #000000;
+				font-weight: 500;
+				transition: all 0.3s ease-in-out;
+				border-radius: 45px;
+
+				&:hover {
+					background-color: #000000;
+					border: 1px solid transparent;
+					color: #FFFFFF;
+				}
+			}
+		}
+
+		.learn-press-courses[data-layout=grid] {
+			margin: 0 -15px;
+
+			.course {
+				padding: 0 15px;
+			}
+		}
+	}
+}
+
+.archive {
+	.lp-archive-courses {
+		.top_heading {
+			margin-bottom: 50px
+		}
+	}
+}
+
+// pagiantion 
+.learn-press-pagination.pagination {
+	margin: 0;
+	display: flex;
+
+	@media (max-width: 575px) {
+		margin-bottom: 30px;
+	}
+
+	ul {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0;
+
+		li {
+			display: inline-block;
+			list-style: none;
+			padding: 0;
+
+			.page-numbers {
+				font-weight: bold;
+				display: inline-block;
+				width: 40px;
+				text-align: center;
+				height: 40px;
+				line-height: 40px;
+				border-bottom: 3px solid transparent;
+				font-weight: 600;
+				color: #000000;
+			}
+
+			a {
+				color: #000000;
+				text-decoration: none;
+
+				&:hover,
+				&:focus {
+					border-bottom: 3px solid #FF782D;
+				}
+			}
+
+			.page-numbers.current {
+				color: #000000;
+				font-weight: 600;
+				border-bottom: 3px solid #FF782D;
+			}
+		}
+	}
+}
+
+// sidebar
+@media (min-width: 1200px) {
+	.logged-in .course-summary-sidebar.slide-top .course-summary-sidebar__inner {
+		position: unset
+	}
+}
+
+// profile
+.learnpress {
+	.lp-user-profile {
+		.wrapper-profile-header {
+			background: transparent;
+			color: #000000;
+		}
+
+		.learn-press-courses .course-info .course-footer {
+			.course-price {
+				.price {
+					color: $thim_course_price_color;
+				}
+
+				.free {
+					color: #00d637;
+					font-size: 16px;
+					font-weight: 500;
+				}
+			}
+		}
+
+		.lp-profile-content-area {
+			padding: 0;
+
+			.lp-profile-username {
+
+				&::before,
+				&::after {
+					content: none;
+				}
+			}
+		}
+
+		.dashboard-general-statistic__row .statistic-box {
+			padding: 10px 15px;
+			margin-bottom: 20px;
+			min-width: 140px;
+
+			@media (max-width: 1024px) {
+				padding: 10px;
+				min-width: 90px;
+				max-width: 100px;
+			}
+		}
+
+		.statistic-box .statistic-box__text {
+			font-size: 16px;
+		}
+
+		.learn-press-profile-course__tab__inner {
+			li {
+				padding: 0;
+			}
+		}
+
+		.lp-profile-content {
+			margin-bottom: 0;
+
+			#learn-press-profile-basic-information {
+				button[type=submit] {
+					border-radius: 45px;
+					padding: 5px 25px;
+					text-transform: capitalize;
+				}
+			}
+
+			.lp-button {
+				border-radius: 45px;
+			}
+
+			button[type=submit] {
+				border-radius: 45px;
+				padding: 5px 25px;
+				text-transform: capitalize;
+			}
+		}
+
+		#dashboard-general-statistic {
+			display: flex;
+			column-gap: 30px;
+
+			@media (max-width: 673px) {
+				display: block;
+			}
+		}
+
+		.learn-press-form {
+			max-width: 500px;
+
+			button[type=submit] {
+				background-color: $thim_body_primary_color;
+				border: 2px solid transparent;
+				transition: all 0.3s ease-in-out;
+
+				&:hover {
+					border: 2px solid $thim_body_primary_color;
+					background-color: transparent;
+					color: #000000;
+				}
+			}
+		}
+
+		&.guest {
+			.lp-content-area {
+				@media (min-width: 1200px) {
+					display: flex;
+				}
+
+				.learn-press-form {
+					@media (min-width: 1200px) {
+						min-width: 500px;
+					}
+				}
+			}
+		}
+
+		#profile-sidebar {
+			border: none;
+		}
+	}
+
+	.lp-archive-courses .course-summary-content .course-title {
+		line-height: var(--thim-font_h2-line-height);
+	}
+
+	.lp-archive-courses .course-meta__pull-left .meta-item {
+		height: fit-content;
+	}
+
+	@media (max-width: 767px) {
+		.learn-press-courses[data-layout=list] .course-content {
+			padding: 20px;
+		}
+	}
+
+	.course-extra-box {
+		border-radius: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.learnpress {
+		.lp-archive-courses ul.course-nav-tabs {
+			padding: 0;
+		}
+	}
+}
